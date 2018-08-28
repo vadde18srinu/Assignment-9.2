@@ -1,6 +1,6 @@
 1. Calculate the P Value for the test in Problem 2.
 
-P-value= 3.652
+t.test(mtcars$am)
 
 
 2. How do you test the proportions and compare against hypothetical props? Test Hypothesis: proportion
@@ -18,7 +18,6 @@ mtcars$am
 
 prop.test(mtcars$am,1:32)
 
-t.test(mtcars$am)
 
 chisq.test(mtcars$am)
 
